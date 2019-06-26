@@ -1,101 +1,952 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
-		Microsoft ResX Schema
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
 
-		Version 1.3
-
-		The primary goals of this format is to allow a simple XML format 
-		that is mostly human readable. The generation and parsing of the 
-		various data types are done through the TypeConverter classes 
-		associated with the data types.
-
-		Example:
-
-		... ado.net/XML headers & schema ...
-		<resheader name="resmimetype">text/microsoft-resx</resheader>
-		<resheader name="version">1.3</resheader>
-		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-		<data name="Name1">this is my long string</data>
-		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-			[base64 mime encoded serialized .NET Framework object]
-		</data>
-		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-			[base64 mime encoded string representing a byte array form of the .NET Framework object]
-		</data>
-
-		There are any number of "resheader" rows that contain simple 
-		name/value pairs.
-
-		Each data row contains a name, and value. The row also contains a 
-		type or mimetype. Type corresponds to a .NET class that support 
-		text/value conversion through the TypeConverter architecture. 
-		Classes that don't support this are serialized and stored with the 
-		mimetype set.
-
-		The mimetype is used for serialized objects, and tells the 
-		ResXResourceReader how to depersist the object. This is currently not 
-		extensible. For a given mimetype the value must be set accordingly:
-
-		Note - application/x-microsoft.net.object.binary.base64 is the format 
-		that the ResXResourceWriter will generate, however the reader can 
-		read any of the formats listed below.
-
-		mimetype: application/x-microsoft.net.object.binary.base64
-		value   : The object must be serialized with 
-			: System.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.soap.base64
-		value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.bytearray.base64
-		value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BigBoom_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\BigBoom_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigBoom_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\BigBoom_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigIce_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\BigIce_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigWater_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\BigWater_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigWater_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\BigWater_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigWater_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\BigWater_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boom_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Boom_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boom_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Boom_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boom_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Boom_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DestroyedHQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Buildings\DestroyedHQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_APC_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_APC_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Green_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_APC_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_APC_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Grey_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_APC_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_APC_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Red_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_APC_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_APC_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Yellow_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Buildings\HQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ice_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\Ice_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_HeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_HeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Green_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Green_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_HeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_HeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Grey_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_HeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_HeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Red_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Red_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_HeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_HeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_LightTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_LightTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_MediumTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_MediumTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Down_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Down_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Left_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Left_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Right_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Right_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Up_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Up_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Yellow_SuperHeavyTank_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shield_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Shield_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shield_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Shield_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spawn_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Spawn_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spawn_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Spawn_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spawn_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Spawn_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spawn_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Effects\Spawn_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\Water_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\Water_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprites\Surfaces\Water_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

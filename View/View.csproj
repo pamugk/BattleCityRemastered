@@ -33,9 +33,852 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Buildings\DestroyedHQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Buildings\HQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_HeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Green_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_HeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Grey_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_HeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Red_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_HeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Players\Player_Yellow_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_APC_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Grey_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_APC_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Red_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_APC_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_LightTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_MediumTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Left_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Right_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Up_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Yellow_SuperHeavyTank_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Enemies\Enemy_Green_APC_Down_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\BigBoom_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\BigBoom_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Boom_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Boom_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Boom_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Shield_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Shield_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Spawn_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Spawn_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Spawn_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Effects\Spawn_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigWater_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigWater_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Ice_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Water_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Water_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Water_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigIce_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigWater_0.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
