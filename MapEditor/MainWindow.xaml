@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MapEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="800" Icon="map_editor.png">
+    <Grid Margin="0" >
+        <Menu x:Name="mainMenu" VerticalAlignment="Top" Margin="0">
+            <MenuItem x:Name="fileMenuItem" Header="File">
+                <MenuItem x:Name="newFileMenuItem" Header="New" Margin="0"/>
+                <MenuItem x:Name="openFileMenuItem" Header="Open"/>
+                <MenuItem x:Name="saveFileMenuItem" Header="Save"/>
+                <MenuItem x:Name="saveFileAsMenuItem" Header="Save As"/>
+                <MenuItem x:Name="closeFileMenuItem" Header="Close"/>
+                <MenuItem x:Name="exitMenuItem" Header="Exit"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar x:Name="toolsToolBar" VerticalAlignment="Top" Margin="0,17.96,0,0">
+            <Button x:Name="cursorButton" VerticalAlignment="Stretch">
+                <Image Source="DefaultCursor.png" Stretch="None"/>
+            </Button>
+            <Button x:Name="pencilButton" VerticalAlignment="Stretch">
+                <Image Stretch="None" Source="PencilCursor.png"/>
+            </Button>
+            <Button x:Name="fillingButton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Image Stretch="None" Source="FillCursor.png"/>
+            </Button>
+            <Button x:Name="eraserButton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Image Source="EraserCursor.png" Stretch="None"/>
+            </Button>
+        </ToolBar>
+        <ToolBar x:Name="surfacesToolBar" HorizontalAlignment="Left" Margin="0,44.92,0,0"/>
+        <Image x:Name="map" Margin="24,44.92,0,0"/>
     </Grid>
 </Window>

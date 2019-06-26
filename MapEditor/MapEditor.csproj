@@ -94,5 +94,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="map_editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DefaultCursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PencilCursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FillCursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EraserCursor.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
