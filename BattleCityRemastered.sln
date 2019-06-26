@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{C28716CF-DB86-492A-90AF-1AE24EB97392}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{58AF4855-42CD-40E1-A9A0-0446672E9847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{37CC0CE0-D309-4E88-A1B9-B99CA99384EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C28716CF-DB86-492A-90AF-1AE24EB97392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28716CF-DB86-492A-90AF-1AE24EB97392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28716CF-DB86-492A-90AF-1AE24EB97392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AF4855-42CD-40E1-A9A0-0446672E9847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AF4855-42CD-40E1-A9A0-0446672E9847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AF4855-42CD-40E1-A9A0-0446672E9847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AF4855-42CD-40E1-A9A0-0446672E9847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CC0CE0-D309-4E88-A1B9-B99CA99384EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CC0CE0-D309-4E88-A1B9-B99CA99384EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CC0CE0-D309-4E88-A1B9-B99CA99384EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CC0CE0-D309-4E88-A1B9-B99CA99384EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

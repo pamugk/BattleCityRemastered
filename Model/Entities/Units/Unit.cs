@@ -43,11 +43,17 @@ namespace Model.Entities.Units
         public event EventHandler<IDamagable> ObjectWasDamaged;
         public event EventHandler<IDamagable> ObjectWasHealed;
         public event EventHandler<IDamagable> ObjectWasDestroyed;
+        public event EventHandler<IUpgradable> MaxLevelReached;
 
         public override string GetDescription() => "";
 
         private void OnObjectDamaging() => ObjectWasDamaged?.Invoke(this, this);
         private void OnObjectHealing() => ObjectWasHealed?.Invoke(this, this);
         private void OnObjectDestruction() => ObjectWasDestroyed?.Invoke(this, this);
+
+        public void Upgrade()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
