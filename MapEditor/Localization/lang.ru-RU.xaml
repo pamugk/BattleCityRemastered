@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MapEditor.Localization"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="w_Title">Редактор карт для Battle City Remastered</v:String>
+    <v:String x:Key="b_file_Header">Файл</v:String>
+    <v:String x:Key="b_new_file_Header">Создать</v:String>
+    <v:String x:Key="b_open_file_Header">Открыть</v:String>
+    <v:String x:Key="b_save_file_Header">Сохранить</v:String>
+    <v:String x:Key="b_save_file_as_Header">Сохранить как...</v:String>
+    <v:String x:Key="b_close_file_Header">Закрыть</v:String>
+    <v:String x:Key="b_exit_Header">Выход</v:String>
+    <v:String x:Key="b_cursor_Tooltip">Курсор: Ну да, это просто курсор. И всё.</v:String>
+    <v:String x:Key="b_pencil_Tooltip">Карандаш: Рисует один элемент за раз.</v:String>
+    <v:String x:Key="b_filling_Tooltip">Заливка: Заполняет слой элементами выбранного типа.</v:String>
+    <v:String x:Key="b_eraser_Tooltip">Ластик: Стирает один элемент верхнего слоя за раз.</v:String>
+</ResourceDictionary>

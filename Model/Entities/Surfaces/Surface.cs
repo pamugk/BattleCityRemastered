@@ -2,16 +2,23 @@
 
 namespace Model.Entities.Surfaces
 {
-    public enum Types { Stone, Water, Ice, Sand, Lava }
-
-    [System.Serializable]
     public class Surface : Entity
     {
-        public Types Type { get; }
+        public Surfaces Kind { get; }
 
-        public Surface(int x, int y, Types type) : base(x, y) => Type = type;
-        public Surface(Point _coordinates, Types type) : base(_coordinates) => Type = type;
+        public Surface(Point _coordinates, Surfaces surfaceKind) : base(_coordinates)
+        {
+            Kind = surfaceKind;
+        }
 
-        public override string GetDescription() => $"{Type}";
+        public Surface(int x, int y, Surfaces surfaceKind) : base(x, y)
+        {
+            Kind = surfaceKind;
+        }
+
+        public override string GetDescription()
+        {
+            return $"{Kind}_0";
+        }
     }
 }

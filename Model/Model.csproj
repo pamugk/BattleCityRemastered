@@ -43,8 +43,9 @@
     <Compile Include="Entities\Buildings\HQ.cs" />
     <Compile Include="Entities\Effects\Effect.cs" />
     <Compile Include="Entities\Entity.cs" />
-    <Compile Include="Entities\Hides\Hide.cs" />
+    <Compile Include="Entities\Hides\Hides.cs" />
     <Compile Include="Entities\Surfaces\Surface.cs" />
+    <Compile Include="Entities\Surfaces\Surfaces.cs" />
     <Compile Include="Entities\Units\Unit.cs" />
     <Compile Include="Entities\Walls\Wall.cs" />
     <Compile Include="Interfaces\IDamagable.cs" />

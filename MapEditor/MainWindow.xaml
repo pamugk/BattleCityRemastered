@@ -5,33 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MapEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Icon="map_editor.png">
-    <Grid Margin="0" >
-        <Menu x:Name="mainMenu" VerticalAlignment="Top" Margin="0">
-            <MenuItem x:Name="fileMenuItem" Header="File">
-                <MenuItem x:Name="newFileMenuItem" Header="New" Margin="0"/>
-                <MenuItem x:Name="openFileMenuItem" Header="Open"/>
-                <MenuItem x:Name="saveFileMenuItem" Header="Save"/>
-                <MenuItem x:Name="saveFileAsMenuItem" Header="Save As"/>
-                <MenuItem x:Name="closeFileMenuItem" Header="Close"/>
-                <MenuItem x:Name="exitMenuItem" Header="Exit"/>
+        Title="{DynamicResource w_Title}" Height="600" Width="800" Icon="map_editor.png" Closing="Window_Closing" Loaded="Window_Loaded" ForceCursor="True">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="mainMenu" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalAlignment="Top">
+            <MenuItem x:Name="fileMenuItem" Header="{DynamicResource b_file_Header}" ForceCursor="True">
+                <MenuItem x:Name="newFileMenuItem" Header="{DynamicResource b_new_file_Header}" Click="NewFileMenuItem_Click"/>
+                <MenuItem x:Name="openFileMenuItem" Header="{DynamicResource b_open_file_Header}" Click="OpenFileMenuItem_Click"/>
+                <MenuItem x:Name="saveFileMenuItem" Header="{DynamicResource b_save_file_Header}" Click="SaveFileMenuItem_Click" IsEnabled="False"/>
+                <MenuItem x:Name="saveFileAsMenuItem" Header="{DynamicResource b_save_file_as_Header}" Click="SaveFileAsMenuItem_Click" IsEnabled="False"/>
+                <MenuItem x:Name="closeFileMenuItem" Header="{DynamicResource b_close_file_Header}" Click="CloseFileMenuItem_Click" IsEnabled="False"/>
+                <MenuItem x:Name="exitMenuItem" Header="{DynamicResource b_exit_Header}" Click="ExitMenuItem_Click"/>
             </MenuItem>
         </Menu>
-        <ToolBar x:Name="toolsToolBar" VerticalAlignment="Top" Margin="0,17.96,0,0">
-            <Button x:Name="cursorButton" VerticalAlignment="Stretch">
-                <Image Source="DefaultCursor.png" Stretch="None"/>
+        <ToolBar x:Name="toolsToolBar" Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="1" ForceCursor="True">
+            <Button x:Name="cursorButton" VerticalAlignment="Stretch" Click="CursorButton_Click" ToolTip="{DynamicResource b_cursor_Tooltip}">
+                <Image Source="DefaultCursor.png" Stretch="None" HorizontalAlignment="Left" ToolTip="{DynamicResource b_cursor_Tooltip}"/>
             </Button>
-            <Button x:Name="pencilButton" VerticalAlignment="Stretch">
-                <Image Stretch="None" Source="PencilCursor.png"/>
+            <Button x:Name="pencilButton" VerticalAlignment="Stretch" Click="PencilButton_Click">
+                <Image Stretch="None" Source="PencilCursor.png" HorizontalAlignment="Left" ToolTip="{DynamicResource b_pencil_Tooltip}"/>
             </Button>
-            <Button x:Name="fillingButton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-                <Image Stretch="None" Source="FillCursor.png"/>
+            <Button x:Name="fillingButton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="FillingButton_Click">
+                <Image Stretch="None" Source="FillCursor.png" HorizontalAlignment="Left" ToolTip="{DynamicResource b_filling_Tooltip}"/>
             </Button>
-            <Button x:Name="eraserButton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-                <Image Source="EraserCursor.png" Stretch="None"/>
+            <Button x:Name="eraserButton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="EraserButton_Click">
+                <Image Source="EraserCursor.png" Stretch="None" HorizontalAlignment="Left" ToolTip="{DynamicResource b_eraser_Tooltip}"/>
             </Button>
         </ToolBar>
-        <ToolBar x:Name="surfacesToolBar" HorizontalAlignment="Left" Margin="0,44.92,0,0"/>
-        <Image x:Name="map" Margin="24,44.92,0,0"/>
+        <ToolBarTray Grid.Row="2" Orientation="Vertical" Margin="0" HorizontalAlignment="Left">
+            <ToolBar x:Name="mapToolBar" HorizontalAlignment="Left" Margin="0" ForceCursor="True"/>
+        </ToolBarTray>
+        <Image x:Name="mapImage" Grid.Row="2" HorizontalAlignment="Right"/>
     </Grid>
 </Window>

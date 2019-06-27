@@ -890,5 +890,35 @@
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Lava_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Lava_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Sand_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Stone_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigLava_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigLava_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigLava_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigSand_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\BigStone_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprites\Surfaces\Lava_0.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
