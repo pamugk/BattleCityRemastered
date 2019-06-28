@@ -4,14 +4,23 @@ namespace Model.Entities.Surfaces
 {
     public class Surface : Entity
     {
-        public Surfaces Kind { get; }
+        public enum Kinds
+        {
+            Stone,
+            Water,
+            Ice,
+            Sand,
+            Lava
+        }
 
-        public Surface(Point _coordinates, Surfaces surfaceKind) : base(_coordinates)
+        public Kinds Kind { get; }
+
+        public Surface(Point _coordinates, Kinds surfaceKind) : base(_coordinates)
         {
             Kind = surfaceKind;
         }
 
-        public Surface(int x, int y, Surfaces surfaceKind) : base(x, y)
+        public Surface(int x, int y, Kinds surfaceKind) : base(x, y)
         {
             Kind = surfaceKind;
         }

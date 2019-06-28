@@ -13,13 +13,13 @@ namespace View
 {
     public static class GameMapView
     {
-        private static Dictionary<Surfaces, int> SurfaceTacts = new Dictionary<Surfaces, int>
+        private static Dictionary<Surface.Kinds, int> SurfaceTacts = new Dictionary<Surface.Kinds, int>
         {
-            { Surfaces.Stone, 1 },
-            { Surfaces.Water, 3 },
-            { Surfaces.Ice, 1 },
-            { Surfaces.Sand, 1 },
-            { Surfaces.Lava, 3 }
+            { Surface.Kinds.Stone, 1 },
+            { Surface.Kinds.Water, 3 },
+            { Surface.Kinds.Ice, 1 },
+            { Surface.Kinds.Sand, 1 },
+            { Surface.Kinds.Lava, 3 }
         };
 
         private static readonly Size frameSize = new Size(208, 208);
@@ -33,14 +33,20 @@ namespace View
         {
             var frame = new Bitmap(frameSize.Width, frameSize.Height);
             var frameGraphics = Graphics.FromImage(frame);
-            gameMap.GetSurface().ForEach(surface => frameGraphics.DrawImage(surface.GetEntityImage(), surface.Coordinates.Convert()));
+
+            for (int i = 0; i < gameMap.SurfaceLayer.GetLength(0); i++)
+                for (int j = 0; j < gameMap.SurfaceLayer.GetLength(0); j++)
+                    frameGraphics.DrawImage(gameMap.SurfaceLayer[i, j].GetEntityImage(), 
+                                                gameMap.SurfaceLayer[i, j].Coordinates.Convert());
+
             frameGraphics.DrawImage(gameMap.hq.GetEntityImage(), gameMap.hq.Coordinates.Convert());
+
             return frame.ToImageSource();
         }
 
-        public static Dictionary<Surfaces, List<BitmapSource>> EnumerateSurfaceAnimations() =>
-            Enum.GetNames(typeof(Surfaces))
-                .Select(surfaceName => (Surfaces)Enum.Parse(typeof(Surfaces), surfaceName))
+        public static Dictionary<Surface.Kinds, List<BitmapSource>> EnumerateSurfaceAnimations() =>
+            Enum.GetNames(typeof(Surface.Kinds))
+                .Select(surfaceName => (Surface.Kinds)Enum.Parse(typeof(Surface.Kinds), surfaceName))
                 .ToDictionary(
                     surface => surface,
                     surface =>

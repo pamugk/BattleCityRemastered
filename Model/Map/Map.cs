@@ -39,21 +39,20 @@ namespace Model.Map
         #endregion
 
         public HQ hq;
-        public Surfaces[,] surfaceLayer;
+        public Surface[,] SurfaceLayer { get; }
 
         public Map()
         {
             hq = new HQ(HQX, HQY);
-            surfaceLayer = new Surfaces[Width * SurfacesPerACellSide, Height * SurfacesPerACellSide];
+            SurfaceLayer = new Surface[Width * SurfacesPerACellSide, Height * SurfacesPerACellSide];
+            FillSurfaceLayer();
         }
 
-        public List<Surface> GetSurface()
+        private void FillSurfaceLayer()
         {
-            var result = new List<Surface>();
-            for (int i = 0; i < surfaceLayer.GetLength(0); i++)
-                for (int j = 0; j < surfaceLayer.GetLength(1); j++)
-                    result.Add(new Surface(i * 8, j * 8, surfaceLayer[i, j]));
-            return result;
+            for (int i = 0; i < SurfaceLayer.GetLength(0); i++)
+                for (int j = 0; j < SurfaceLayer.GetLength(1); j++)
+                    SurfaceLayer[i, j] = new Surface(i * 8, j * 8, Surface.Kinds.Stone);
         }
     }
 }

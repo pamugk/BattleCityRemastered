@@ -31,6 +31,7 @@ namespace MapEditor
         {
             currentMap = new Map();
             mapImage.Source = GameMapView.DrawMap(currentMap);
+            ChangeInterfaceState(true);
         }
 
         private void OpenFileMenuItem_Click(object sender, RoutedEventArgs e)
@@ -45,6 +46,7 @@ namespace MapEditor
             currentFile = new FileInfo(openMapDialog.FileName);
             using (var file = openMapDialog.OpenFile())
                 currentMap = (Map)new BinaryFormatter().Deserialize(file);
+            ChangeInterfaceState(true);
         }
 
         private void SaveFileMenuItem_Click(object sender, RoutedEventArgs e)
@@ -60,6 +62,7 @@ namespace MapEditor
         private void CloseFileMenuItem_Click(object sender, RoutedEventArgs e)
         {
 
+            ChangeInterfaceState(false);
         }
         #endregion
 
@@ -67,6 +70,14 @@ namespace MapEditor
         {
             Close();
         }
+
+        #region Работа с интерфейсом
+        private void ChangeInterfaceState(bool isEnabled)
+        {
+            toolsToolBar.IsEnabled = isEnabled;
+            mapToolBar.IsEnabled = isEnabled;
+        }
+        #endregion
 
         #region Работа с инструментами
         private void CursorButton_Click(object sender, RoutedEventArgs e)
@@ -91,7 +102,7 @@ namespace MapEditor
         #endregion
 
         #region Работа с картой
-        private Dictionary<Surfaces, List<BitmapSource>> surfacesAnimations;
+        private Dictionary<Surface.Kinds, List<BitmapSource>> surfacesAnimations;
 
         private void LoadSurfaces()
         {
@@ -109,7 +120,7 @@ namespace MapEditor
                     Tag = pair.Key,
 
                 };
-                newButton.Click += MapButton_Click;
+                newButton.Click += SurfaceButton_Click;
                 mapToolBar.Items.Add(newButton);
             }
         }
@@ -126,9 +137,9 @@ namespace MapEditor
             LoadSurfaces();      
         }
 
-        private void MapButton_Click(object sender, RoutedEventArgs e)
+        private void SurfaceButton_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
